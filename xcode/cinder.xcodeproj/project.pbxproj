@@ -215,7 +215,6 @@
 		00704FFB1114F93F003FCAE4 /* Fbo.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C14F9A0ED51A3B00549EF3 /* Fbo.h */; };
 		00704FFC1114F93F003FCAE4 /* Material.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C1500E0ED670DC00549EF3 /* Material.h */; };
 		00704FFD1114F93F003FCAE4 /* DisplayList.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C151E40ED9C02F00549EF3 /* DisplayList.h */; };
-		00704FFE1114F93F003FCAE4 /* Cairo.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C152730EDB927B00549EF3 /* Cairo.h */; };
 		007050001114F93F003FCAE4 /* CinderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C05B970F4A03660046CC99 /* CinderView.h */; };
 		007050011114F93F003FCAE4 /* AppBasic.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4F3E00F5394C500B75296 /* AppBasic.h */; };
 		007050041114F93F003FCAE4 /* AppCinderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 000EF9BB0F55014A004646A3 /* AppCinderView.h */; };
@@ -480,9 +479,6 @@
 		00C150A50ED8F88100549EF3 /* Light.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00C150A40ED8F88100549EF3 /* Light.cpp */; };
 		00C151DE0ED9BDF500549EF3 /* DisplayList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00C151DD0ED9BDF500549EF3 /* DisplayList.cpp */; };
 		00C151E50ED9C02F00549EF3 /* DisplayList.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C151E40ED9C02F00549EF3 /* DisplayList.h */; };
-		00C152740EDB927B00549EF3 /* Cairo.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C152730EDB927B00549EF3 /* Cairo.h */; };
-		00C153020EDBA5D100549EF3 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C153010EDBA5D100549EF3 /* QuickTime.framework */; };
-		00C154060EDBC12B00549EF3 /* Cairo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00C154050EDBC12B00549EF3 /* Cairo.cpp */; };
 		00C938EF0ECCB753000238B1 /* QuickTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C938EE0ECCB753000238B1 /* QuickTime.h */; };
 		00C938F10ECCB7C7000238B1 /* QuickTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00C938F00ECCB7C7000238B1 /* QuickTime.cpp */; };
 		00CE73940E92DBE40059E09B /* gl.h in Headers */ = {isa = PBXBuildFile; fileRef = 00CE73920E92DBE40059E09B /* gl.h */; };
@@ -518,7 +514,6 @@
 		00CFD95C1135C3520091E310 /* Fbo.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C14F9A0ED51A3B00549EF3 /* Fbo.h */; };
 		00CFD95D1135C3520091E310 /* Material.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C1500E0ED670DC00549EF3 /* Material.h */; };
 		00CFD95E1135C3520091E310 /* DisplayList.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C151E40ED9C02F00549EF3 /* DisplayList.h */; };
-		00CFD95F1135C3520091E310 /* Cairo.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C152730EDB927B00549EF3 /* Cairo.h */; };
 		00CFD9611135C3520091E310 /* CinderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C05B970F4A03660046CC99 /* CinderView.h */; };
 		00CFD9621135C3520091E310 /* AppBasic.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4F3E00F5394C500B75296 /* AppBasic.h */; };
 		00CFD9651135C3520091E310 /* AppCinderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 000EF9BB0F55014A004646A3 /* AppCinderView.h */; };
@@ -865,7 +860,7 @@
 		0062484E122F607500039A7A /* Function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Function.h; sourceTree = "<group>"; };
 		006A1EC611D7F39B00941A5E /* MovieWriter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MovieWriter.cpp; path = qtime/MovieWriter.cpp; sourceTree = "<group>"; };
 		006A1EC811D7F3AC00941A5E /* MovieWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MovieWriter.h; path = qtime/MovieWriter.h; sourceTree = "<group>"; };
-		007050BE1114F93F003FCAE4 /* libcinder-iphone_d.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libcinder-iphone_d.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		007050BE1114F93F003FCAE4 /* libcinder-iphone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libcinder-iphone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0071BD040FB9F4AD0092E7D6 /* Display.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Display.h; sourceTree = "<group>"; };
 		0071BD080FB9FA2C0092E7D6 /* Display.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = Display.cpp; sourceTree = "<group>"; };
 		007438400EA7924F005DD3E6 /* Capture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = Capture.cpp; sourceTree = "<group>"; };
@@ -969,15 +964,13 @@
 		00C150A40ED8F88100549EF3 /* Light.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Light.cpp; path = gl/Light.cpp; sourceTree = "<group>"; };
 		00C151DD0ED9BDF500549EF3 /* DisplayList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DisplayList.cpp; path = gl/DisplayList.cpp; sourceTree = "<group>"; };
 		00C151E40ED9C02F00549EF3 /* DisplayList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DisplayList.h; path = gl/DisplayList.h; sourceTree = "<group>"; };
-		00C152730EDB927B00549EF3 /* Cairo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = Cairo.h; path = cairo/Cairo.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		00C153010EDBA5D100549EF3 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
-		00C154050EDBC12B00549EF3 /* Cairo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = Cairo.cpp; path = cairo/Cairo.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		00C938EE0ECCB753000238B1 /* QuickTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickTime.h; path = qtime/QuickTime.h; sourceTree = "<group>"; };
 		00C938F00ECCB7C7000238B1 /* QuickTime.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = QuickTime.cpp; path = qtime/QuickTime.cpp; sourceTree = "<group>"; };
 		00CE73920E92DBE40059E09B /* gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gl.h; path = gl/gl.h; sourceTree = "<group>"; };
 		00CE73930E92DBE40059E09B /* GLee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = GLee.h; path = gl/GLee.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		00CE73970E92DBF80059E09B /* gl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gl.cpp; path = gl/gl.cpp; sourceTree = "<group>"; };
-		00CFD9E11135C3520091E310 /* libcinder-iphone-sim_d.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libcinder-iphone-sim_d.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00CFD9E11135C3520091E310 /* libcinder-iphone-sim.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libcinder-iphone-sim.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00CFE37B113B85F60091E310 /* Path2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Path2d.h; sourceTree = "<group>"; };
 		00CFE37C113B85F60091E310 /* Thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thread.h; sourceTree = "<group>"; };
 		00D23A530EAEB4C00002BF91 /* Color.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Color.cpp; sourceTree = "<group>"; };
@@ -1057,7 +1050,7 @@
 		C7FB1BB0124BE31E0045AFD2 /* InputImplAudioUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputImplAudioUnit.h; sourceTree = "<group>"; };
 		C7FB1BB1124BE31E0045AFD2 /* OutputImplAudioUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutputImplAudioUnit.h; sourceTree = "<group>"; };
 		C7FB1BB2124BE31E0045AFD2 /* PcmBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PcmBuffer.h; sourceTree = "<group>"; };
-		D2AAC07E0554694100DB518D /* libcinder_d.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcinder_d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AAC07E0554694100DB518D /* libcinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcinder.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F7E8BE07B2D77200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		EAC3D1A81011F2E700FFBC9E /* Serial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Serial.h; sourceTree = "<group>"; };
 		EAC3D1AB1011F3AC00FFBC9E /* Serial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Serial.cpp; sourceTree = "<group>"; };
@@ -1107,7 +1100,6 @@
 				0091D8F10E81B9110029341E /* OpenGL.framework in Frameworks */,
 				007439930EA7BB47005DD3E6 /* QTKit.framework in Frameworks */,
 				0074399E0EA7BB7D005DD3E6 /* CoreVideo.framework in Frameworks */,
-				00C153020EDBA5D100549EF3 /* QuickTime.framework in Frameworks */,
 				00E0B4B20F605D64002C8FBD /* CoreGraphics.framework in Frameworks */,
 				00E0B60D0F60DE8B002C8FBD /* ApplicationServices.framework in Frameworks */,
 				0094F3460F6A120800EBED1B /* ScreenSaver.framework in Frameworks */,
@@ -1334,7 +1326,6 @@
 				C7BA405B0FA8BEFD00AADC07 /* audio */,
 				002419CC0E8035CA004D34EB /* app */,
 				009987140F79CFC20042F211 /* cocoa */,
-				00C152720EDB920300549EF3 /* cairo */,
 				00C938F80ECCB87F000238B1 /* qtime */,
 				00CE73910E92DBD60059E09B /* gl */,
 				0076581B11226084005547DF /* CinderResources.h */,
@@ -1423,7 +1414,6 @@
 				C7BA40600FA8BF0F00AADC07 /* audio */,
 				00241A0A0E803708004D34EB /* app */,
 				009987180F79D04D0042F211 /* cocoa */,
-				00C152760EDB92C900549EF3 /* cairo */,
 				00C938F90ECCB8A2000238B1 /* qtime */,
 				00CE73960E92DBEB0059E09B /* gl */,
 				0032FD2A10BB472E00C63A9D /* Exception.cpp */,
@@ -1519,22 +1509,6 @@
 			name = ip;
 			sourceTree = "<group>";
 		};
-		00C152720EDB920300549EF3 /* cairo */ = {
-			isa = PBXGroup;
-			children = (
-				00C152730EDB927B00549EF3 /* Cairo.h */,
-			);
-			name = cairo;
-			sourceTree = "<group>";
-		};
-		00C152760EDB92C900549EF3 /* cairo */ = {
-			isa = PBXGroup;
-			children = (
-				00C154050EDBC12B00549EF3 /* Cairo.cpp */,
-			);
-			name = cairo;
-			sourceTree = "<group>";
-		};
 		00C938F80ECCB87F000238B1 /* qtime */ = {
 			isa = PBXGroup;
 			children = (
@@ -1593,9 +1567,9 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2AAC07E0554694100DB518D /* libcinder_d.a */,
-				007050BE1114F93F003FCAE4 /* libcinder-iphone_d.a */,
-				00CFD9E11135C3520091E310 /* libcinder-iphone-sim_d.a */,
+				D2AAC07E0554694100DB518D /* libcinder.a */,
+				007050BE1114F93F003FCAE4 /* libcinder-iphone.a */,
+				00CFD9E11135C3520091E310 /* libcinder-iphone-sim.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1746,7 +1720,6 @@
 				00704FFB1114F93F003FCAE4 /* Fbo.h in Headers */,
 				00704FFC1114F93F003FCAE4 /* Material.h in Headers */,
 				00704FFD1114F93F003FCAE4 /* DisplayList.h in Headers */,
-				00704FFE1114F93F003FCAE4 /* Cairo.h in Headers */,
 				007050001114F93F003FCAE4 /* CinderView.h in Headers */,
 				007050011114F93F003FCAE4 /* AppBasic.h in Headers */,
 				007050041114F93F003FCAE4 /* AppCinderView.h in Headers */,
@@ -1881,7 +1854,6 @@
 				00CFD95C1135C3520091E310 /* Fbo.h in Headers */,
 				00CFD95D1135C3520091E310 /* Material.h in Headers */,
 				00CFD95E1135C3520091E310 /* DisplayList.h in Headers */,
-				00CFD95F1135C3520091E310 /* Cairo.h in Headers */,
 				00CFD9611135C3520091E310 /* CinderView.h in Headers */,
 				00CFD9621135C3520091E310 /* AppBasic.h in Headers */,
 				00CFD9651135C3520091E310 /* AppCinderView.h in Headers */,
@@ -2016,7 +1988,6 @@
 				00C14F9B0ED51A3B00549EF3 /* Fbo.h in Headers */,
 				00C1500F0ED670DC00549EF3 /* Material.h in Headers */,
 				00C151E50ED9C02F00549EF3 /* DisplayList.h in Headers */,
-				00C152740EDB927B00549EF3 /* Cairo.h in Headers */,
 				00C05B980F4A03660046CC99 /* CinderView.h in Headers */,
 				00B4F3E10F5394C500B75296 /* AppBasic.h in Headers */,
 				000EF9BC0F55014A004646A3 /* AppCinderView.h in Headers */,
@@ -2155,7 +2126,7 @@
 			);
 			name = cinder_iphone;
 			productName = cinder;
-			productReference = 007050BE1114F93F003FCAE4 /* libcinder-iphone_d.a */;
+			productReference = 007050BE1114F93F003FCAE4 /* libcinder-iphone.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		00CFD92C1135C3520091E310 /* cinder_iphone_sim */ = {
@@ -2172,7 +2143,7 @@
 			);
 			name = cinder_iphone_sim;
 			productName = cinder;
-			productReference = 00CFD9E11135C3520091E310 /* libcinder-iphone-sim_d.a */;
+			productReference = 00CFD9E11135C3520091E310 /* libcinder-iphone-sim.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		D2AAC07D0554694100DB518D /* cinder */ = {
@@ -2189,7 +2160,7 @@
 			);
 			name = cinder;
 			productName = cinder;
-			productReference = D2AAC07E0554694100DB518D /* libcinder_d.a */;
+			productReference = D2AAC07E0554694100DB518D /* libcinder.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -2453,7 +2424,6 @@
 				00C150110ED6710500549EF3 /* Material.cpp in Sources */,
 				00C150A50ED8F88100549EF3 /* Light.cpp in Sources */,
 				00C151DE0ED9BDF500549EF3 /* DisplayList.cpp in Sources */,
-				00C154060EDBC12B00549EF3 /* Cairo.cpp in Sources */,
 				00B4F3E70F53955000B75296 /* AppBasic.cpp in Sources */,
 				00DCBA950F7932F400D88D86 /* CinderView.mm in Sources */,
 				00DCBE270F7986B800D88D86 /* AppImplCocoaRendererGl.mm in Sources */,
@@ -2688,7 +2658,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = i386;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CHECKED_STL = "-D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -2716,7 +2686,7 @@
 				);
 				PRODUCT_NAME = cinder_d;
 				SDKROOT = "";
-				VALID_ARCHS = i386;
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -2724,7 +2694,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = i386;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -2753,7 +2723,7 @@
 				);
 				PRODUCT_NAME = cinder;
 				SDKROOT = "";
-				VALID_ARCHS = i386;
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
